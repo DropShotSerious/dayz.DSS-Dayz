@@ -1,0 +1,93 @@
+/* Forums Page Styles */
+#forums {
+    background: #444;
+    color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+    #forums h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+
+    #forums p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+.forum-sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.forum-section {
+    background: #333;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+    .forum-section h3 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .forum-section p {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    .forum-section a {
+        padding: 10px 20px;
+        font-size: 1.1rem;
+        background-color: #f44336;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .forum-section a:hover {
+            background-color: #d32f2f;
+        }
+
+/* Create New Thread Section */
+.create-thread {
+    margin-top: 50px;
+    padding: 20px;
+    background: #333;
+    border-radius: 8px;
+    text-align: center;
+}
+
+    .create-thread h3 {
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+
+    .create-thread button {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        background-color: #f44336;
+        color: white;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+        .create-thread button:hover {
+            background-color: #d32f2f;
+        }
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .forum-sections {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .create-thread {
+        padding: 10px;
+    }
+}

@@ -1,0 +1,90 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2b2b2b;
+    color: white;
+}
+
+/* Header */
+header {
+    background: #1a1a1a;
+    padding: 10px;
+    text-align: center;
+}
+
+    header h1 {
+        font-size: 3rem;
+        margin: 0;
+    }
+
+/* Navigation Bar */
+nav {
+    background: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+    nav a {
+        color: #fff;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+/* Hero Section */
+.hero {
+    background-image: url('OIP.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+    .hero h1 {
+        font-size: 4rem;
+    }
+
+    .hero p {
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+.cta-button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+    .cta-button:hover {
+        background-color: #d32f2f;
+    }
+
+/* Section Styling */
+.section {
+    padding: 50px;
+    text-align: center;
+}
+
+    .section h2 {
+        font-size: 2.5rem;
+    }
+
+/* Footer */
+footer {
+    background: #1a1a1a;
+    padding: 10px;
+    text-align: center;
+    color: #bbb;
+}
